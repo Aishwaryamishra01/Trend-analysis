@@ -127,4 +127,3 @@ imp_df = pd.DataFrame({
 }).sort_values(by="Importance", ascending=False)
 
 st.bar_chart(imp_df.set_index("Feature"))
-explain this code
